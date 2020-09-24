@@ -1,0 +1,37 @@
+h1{
+    color: coral;
+    text-align: center;
+    font-size: 6ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    color: darkorange;
+    text-align: center;
+    font-size: 3ch;
+}
+p{
+    color: crimson;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 3ch;
+}
+form{
+    text-align: center;    
+}
+body{
+    background-color: aqua;
+}
+.column {
+    float: right;
+    width: 30%;
+    padding: 3px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
